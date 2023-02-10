@@ -1,0 +1,156 @@
+*{
+margin: 0%;
+/*border: 1px solid red;*/
+font-family: sans-serif;
+}
+
+.navbar img{
+	margin-left: 5%;
+	vertical-align: middle;
+}
+.navbar a{
+	text-decoration: none;
+	color: black;
+	margin-left: 2%;
+}
+#company-name{
+	font-size: 2rem;
+}
+#company-name span{
+color:orange;
+}
+#company-name+a{
+	color:orange;
+	margin-left: 9%;
+}
+.sec2{
+	background-color: rgba(239,239, 239, 0.6);
+	display:flex;
+	padding: 8% 13%;
+}
+.shapes{
+	width: 70%;
+	position: relative;
+	/*background-color: grey;
+	padding: 5% 0%;*/
+
+}
+.rectangle{
+	background-color:rgba(0, 0, 0, 0.2) ;
+	width:60%;
+	padding: 15% 8% ;
+}
+.small-circle{
+	position: absolute;
+	top:-8% ;
+	left:50% ;
+	width:10%;
+	padding:3% 0% ;
+	border-radius:50% ;
+	text-align:center ;
+	background-color: black;
+	color:rgba(225, 225, 225, 0.8) ;
+}
+.large-circle{
+	position: absolute;
+	top:3% ;
+	left:59.2% ;
+	width:12%;
+	padding:4% 0% ;
+	border-radius:70% ;
+	text-align:center ;
+	background-color:orange;
+	color:white ;
+}
+.get{
+	background-color: orange;
+	color:white ;
+	text-align: center;
+	cursor: pointer;
+	border-radius:25px ;
+	width:fit-content;
+	border:none;
+    margin-top:8% ;
+	padding: 3% 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1366px){
+	#company-name+a{
+		margin-left: 12%;
+	}
+	.small-circle{
+		width:10%;
+		padding:2% 0% ;
+	}
+	.large-circle{
+		font-size: 1rem;
+	}
+	
+
+
+}
+@media(max-width:1000px){
+ .navbar a{
+ 	font-size: 0.8em;
+ }
+ #company-name{
+ 	font-size: 1.5rem;
+ }.small-circle{
+ 	font-size:0.5rem;
+ }
+ .large-circle{
+ 	font-size: 0.4rem;
+ }
+}
+
+
+.footer
+{
+	background-color:rgba(1,1,1,0.8);
+	color:white;
+}
+.footer input
+{
+	width:23%;
+	background-color:rgba(1,1,1,0.1);
+	border: 1px solid rgba(239,239, 239, 0.2);
+	padding:16px;
+	margin-left:18%;
+	margin-top:2%;
+	margin-bottom:2%;
+
+}
+.footer button
+{	border: 1px solid rgba(239,239, 239, 0.3);
+	background-color:rgba(239,239, 239, 0.2);
+	color:white;
+	padding:16px;
+}
+.col_flex
+{
+	display:flex;
+	flex-direction:row;
+}
+.footer a
+{
+	color:white;
+	text-decoration:none;
+	border-right:1px solid white;
+	padding-left:16px;
+	margin:14px;
+	/**/
+
+
+}
